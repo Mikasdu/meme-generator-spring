@@ -7,14 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="gs-uploading-files" />
+        <module name="IBM-meme-generator" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="gs-uploading-files" target="1.8" />
+      <module name="IBM-meme-generator" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="IBM-meme-generator" options="-parameters" />
       <module name="gs-uploading-files" options="-parameters" />
     </option>
   </component>
