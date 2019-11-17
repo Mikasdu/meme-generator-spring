@@ -23,3 +23,5 @@
 hs_err_pid*
 /upload-dir/
 /.idea/libraries/
+/target/
+/upload-dir/
